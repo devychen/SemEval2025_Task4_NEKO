@@ -1,10 +1,13 @@
-# Machine Unlearning
+# A Gradient Adjust Approach to Machine Unlearning
 
 SemEval 2025 [Homepage](https://semeval.github.io/SemEval2025/tasks) <br>
 [Task 4](https://llmunlearningsemeval2025.github.io/) Machine Unlearning <br>
 [Challenges in CL, Course page](https://github.com/cicl-iscl/cicl2024)
 
 ### Team _NEKO_: Chi Kuan Lai, Yifei Chen <br>
+
+### Abstract
+The power and wide application of large language models (LLMs) has brought the concerns on its risk of leaking private or sensitive information. However, retraining the modules is expensive and impractical, which introduces machine unlearning - removing specific information from language models while preserving general utility. Task 4 at SemEval 2025 consists of a shared task with this exact objective. We present an approach which combines gradient ascent-based forgetting with Kullback-Leibler (KL) divergence-based retention, applied to a 1-billion-parameter causal language model. Despite achieving effective forgetting, the system struggles with maintaining model utility. Our experiments reveal critical trade-off between unlearning effectiveness and performance preservation, highlighting challenges in practical machine unlearning implementations. 
 
 
 ### Methods
